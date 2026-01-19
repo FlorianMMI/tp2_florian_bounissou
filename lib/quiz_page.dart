@@ -238,9 +238,6 @@ class _QuizPageState extends State<QuizPage> {
             : Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('Question ${currentQuestion + 1} / $totalQuestions',
-                style: const TextStyle(fontSize: 18)),
-            const SizedBox(height: 30),
             QuestionText(questionText: question.question),
             const SizedBox(height: 20),
             // On génère les boutons de réponse directement ici
