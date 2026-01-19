@@ -150,7 +150,7 @@ class _QuizPageState extends State<QuizPage> {
   void shareScore() {
   
   SharePlus.instance.share(
-    ShareParams(text: 'J\'ai obtenu un score de $score sur $totalQuestions au quiz Flutter ! Essayez-le vous aussi !'),
+    ShareParams(text: 'J\'ai obtenu un score de $score sur $totalQuestions au quiz Flutter ! Essayez-le vous aussi ! \nhttps://github.com/FlorianMMI/tp2_florian_bounissou'),
   );
 
   }
