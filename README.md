@@ -1,16 +1,15 @@
-# tp2_florian_bounissou
+Tp2_Florian_Bounissou
+======================
 
-A new Flutter project.
+Le projet contient 1 seul branches principale : main
 
-## Getting Started
+Elle comporte le projet Quiz avec les fonctionnalités suivantes :
 
-This project is a starting point for a Flutter application.
+- Affichage des questions et des choix de réponses avec animation on tap
+- Calcul du score
+- Partage du score via l'application native de partage
+- Changement de couleur de fond à chaque question (dégradé entre deux couleurs)
+- Réinitialisation du quiz à la fin
+- Compte à rebours entre chaque questions
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Une animations est faite grâce à des AnimatedContainer et une autre faire manuelle grâce à une variable d'état et un Timer.

@@ -11,7 +11,7 @@ class QuizPage extends StatefulWidget {
   State<QuizPage> createState() => _QuizPageState();
 }
 
-
+// Liste des questions du quiz générée par l'ia pour l'exemple
 final List<Question> questions = [
     Question(
       question: 'Quelle entreprise développe Flutter ?',
@@ -149,7 +149,6 @@ class _QuizPageState extends State<QuizPage> {
 
   void shareScore() {
   
-  print('Coucou');
   SharePlus.instance.share(
     ShareParams(text: 'J\'ai obtenu un score de $score sur $totalQuestions au quiz Flutter ! Essayez-le vous aussi !'),
   );
